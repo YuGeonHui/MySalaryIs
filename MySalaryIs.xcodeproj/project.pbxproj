@@ -13,6 +13,7 @@
 		B620FBF02910E9EE00F64ADB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620FBEF2910E9EE00F64ADB /* Preview Assets.xcassets */; };
 		B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF12910E9EE00F64ADB /* Persistence.swift */; };
 		B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */; };
+		B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FED18291149DD00A5B4A2 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B620FBEF2910E9EE00F64ADB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B620FBF12910E9EE00F64ADB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B620FBF42910E9EE00F64ADB /* MySalaryIs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySalaryIs.xcdatamodel; sourceTree = "<group>"; };
+		B68FED18291149DD00A5B4A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B620FBF12910E9EE00F64ADB /* Persistence.swift */,
 				B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */,
 				B620FBEE2910E9EE00F64ADB /* Preview Content */,
+				B68FED18291149DD00A5B4A2 /* MainViewController.swift */,
 			);
 			path = MySalaryIs;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */,
 				B620FBEB2910E9ED00F64ADB /* ContentView.swift in Sources */,
 				B620FBE92910E9ED00F64ADB /* MySalaryIsApp.swift in Sources */,
+				B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
