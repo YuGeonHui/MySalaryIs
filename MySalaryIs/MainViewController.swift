@@ -49,10 +49,7 @@ struct MainView: View {
                     .padding()
                     .background(Color(uiColor: .secondarySystemBackground))
                 
-            }.padding(12)
-//            Text("입력된 월급 : \($salary)")
-//                .bold()
-            
+            }.padding()
             
             
             Spacer()
