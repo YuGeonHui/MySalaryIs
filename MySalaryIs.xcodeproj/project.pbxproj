@@ -14,6 +14,7 @@
 		B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF12910E9EE00F64ADB /* Persistence.swift */; };
 		B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */; };
 		B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FED18291149DD00A5B4A2 /* MainViewController.swift */; };
+		B6E7E32B291407FF0077D640 /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7E32A291407FF0077D640 /* Salary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B620FBF12910E9EE00F64ADB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B620FBF42910E9EE00F64ADB /* MySalaryIs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySalaryIs.xcdatamodel; sourceTree = "<group>"; };
 		B68FED18291149DD00A5B4A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B6E7E32A291407FF0077D640 /* Salary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */,
 				B620FBEE2910E9EE00F64ADB /* Preview Content */,
 				B68FED18291149DD00A5B4A2 /* MainViewController.swift */,
+				B6E7E32A291407FF0077D640 /* Salary.swift */,
 			);
 			path = MySalaryIs;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */,
+				B6E7E32B291407FF0077D640 /* Salary.swift in Sources */,
 				B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */,
 				B620FBEB2910E9ED00F64ADB /* ContentView.swift in Sources */,
 				B620FBE92910E9ED00F64ADB /* MySalaryIsApp.swift in Sources */,
