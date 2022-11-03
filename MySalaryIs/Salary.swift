@@ -11,3 +11,7 @@ struct Salary {
     
     // MARK: TEST
 }
+
+extension Salary {
+    
+}
