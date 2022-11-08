@@ -15,6 +15,7 @@
 		B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF12910E9EE00F64ADB /* Persistence.swift */; };
 		B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */; };
 		B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FED18291149DD00A5B4A2 /* MainViewController.swift */; };
+		B6E7E32B291407FF0077D640 /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7E32A291407FF0077D640 /* Salary.swift */; };
 		B6ACE0F52919E6B60038EC95 /* FixedExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ACE0F42919E6B60038EC95 /* FixedExpenseRowView.swift */; };
 /* End PBXBuildFile section */
 
