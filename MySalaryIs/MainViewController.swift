@@ -36,14 +36,27 @@ struct MainView: View {
             Text("월급을 입력하세요")
                 .bold()
                 
-            
             TextField("월급을 입력하세요", text: $salary)
                 .padding()
                 .background(Color(uiColor: .secondarySystemBackground))
-
-            FixedExpenseRowView()
             
+            ScrollView {
+                
+                FixedExpenseRowView()
+                FixedExpenseRowView()
+                FixedExpenseRowView()
+                FixedExpenseRowView()
+                FixedExpenseRowView()
+            }
+            .background(Color(uiColor: .clear))
+
             Spacer()
+            
+            HStack(spacing: 20) {
+                
+                ShowResultView()
+                AddFixedExpenseView()
+            }
         }
         .padding()
     }
