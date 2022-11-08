@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60A009D2912788600EFEB33 /* FixedExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60A009C2912788600EFEB33 /* FixedExpenseModel.swift */; };
 		B620FBE92910E9ED00F64ADB /* MySalaryIsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBE82910E9ED00F64ADB /* MySalaryIsApp.swift */; };
 		B620FBEB2910E9ED00F64ADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBEA2910E9ED00F64ADB /* ContentView.swift */; };
 		B620FBED2910E9EE00F64ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620FBEC2910E9EE00F64ADB /* Assets.xcassets */; };
@@ -14,9 +15,11 @@
 		B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF12910E9EE00F64ADB /* Persistence.swift */; };
 		B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */; };
 		B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FED18291149DD00A5B4A2 /* MainViewController.swift */; };
+		B6ACE0F52919E6B60038EC95 /* FixedExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ACE0F42919E6B60038EC95 /* FixedExpenseRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60A009C2912788600EFEB33 /* FixedExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedExpenseModel.swift; sourceTree = "<group>"; };
 		B620FBE52910E9ED00F64ADB /* MySalaryIs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySalaryIs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B620FBE82910E9ED00F64ADB /* MySalaryIsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySalaryIsApp.swift; sourceTree = "<group>"; };
 		B620FBEA2910E9ED00F64ADB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		B620FBF12910E9EE00F64ADB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B620FBF42910E9EE00F64ADB /* MySalaryIs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySalaryIs.xcdatamodel; sourceTree = "<group>"; };
 		B68FED18291149DD00A5B4A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B6ACE0F42919E6B60038EC95 /* FixedExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedExpenseRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60A009B2912785600EFEB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B60A009C2912788600EFEB33 /* FixedExpenseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B620FBDC2910E9ED00F64ADB = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,8 @@
 		B620FBE72910E9ED00F64ADB /* MySalaryIs */ = {
 			isa = PBXGroup;
 			children = (
+				B6ACE0F32919E5940038EC95 /* ViewModel */,
+				B60A009B2912785600EFEB33 /* Model */,
 				B620FBE82910E9ED00F64ADB /* MySalaryIsApp.swift */,
 				B620FBEA2910E9ED00F64ADB /* ContentView.swift */,
 				B620FBEC2910E9EE00F64ADB /* Assets.xcassets */,
@@ -64,6 +78,7 @@
 				B620FBF32910E9EE00F64ADB /* MySalaryIs.xcdatamodeld */,
 				B620FBEE2910E9EE00F64ADB /* Preview Content */,
 				B68FED18291149DD00A5B4A2 /* MainViewController.swift */,
+				B6ACE0F42919E6B60038EC95 /* FixedExpenseRowView.swift */,
 			);
 			path = MySalaryIs;
 			sourceTree = "<group>";
@@ -74,6 +89,13 @@
 				B620FBEF2910E9EE00F64ADB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6ACE0F32919E5940038EC95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B620FBF22910E9EE00F64ADB /* Persistence.swift in Sources */,
+				B60A009D2912788600EFEB33 /* FixedExpenseModel.swift in Sources */,
 				B620FBF52910E9EE00F64ADB /* MySalaryIs.xcdatamodeld in Sources */,
 				B620FBEB2910E9ED00F64ADB /* ContentView.swift in Sources */,
 				B620FBE92910E9ED00F64ADB /* MySalaryIsApp.swift in Sources */,
+				B6ACE0F52919E6B60038EC95 /* FixedExpenseRowView.swift in Sources */,
 				B68FED19291149DD00A5B4A2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
