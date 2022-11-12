@@ -32,7 +32,6 @@ struct AddFixedExpenseView: View {
                 Capsule(style: .continuous)
                     .stroke(Color.gray, style: StrokeStyle(lineWidth: 3, dash: [5]))
             )
-//            .padding()
         }
     }
 }
